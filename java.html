@@ -1,0 +1,21 @@
+<html>
+<body>
+<h3>Password</h3>
+<input id="pass" name='password' type='password'/>
+<h3>Confirm Password</h3>
+<input id="conPass" name='password' type='password'/>
+<input type="button" value="click" OnClick="check()"/>
+<script>
+function check(){
+var  pass=document.getElementById("pass"). value;
+var conPass=document.getElementById("conPass").value;
+if(pass==conPass){
+    alert("successfully logged");
+}
+else {
+    alert("password doesn't match");
+}
+}
+</script>
+</body>
+</html>
