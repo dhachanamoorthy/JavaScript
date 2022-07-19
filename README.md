@@ -1,7 +1,7 @@
 # JavaScript 
 ##### Javascript Engine is responsible to run Javascript Program
 
-1. JavaScript Code Runs inside Execution Context</br>
+1. JavaScript Code Runs inside Execution Context
       * Execution Context
           Global Execution context intialized everytime js promgram runs  
           - Memory (Variable Environment)
@@ -14,13 +14,13 @@
           - Code (Thread of Execution)
 
 2. JavaScript is a synchronous single-threaded language
-    * Memory Phase (Creating memory for variables and function) </br>
+    * Memory Phase (Creating memory for variables and function)
         - default: 
             varName is assigned as undefined 
             funcName is assigned to function code
-            eg : 
-              varName:undefined
-              funcNaame:{...}
+           - eg : 
+		      varName:undefined
+		      funcNaame:{...}
 
     * Code Execution Phase </br>
         - For each function call new Execution Context is created
@@ -54,16 +54,14 @@
 
 7. ERRORS
     * SyntaxError
-      * Error in syntax throws syntax error </br>
-        eg: misspelled keywords,duplicate declaration
-
+      * Error in syntax throws syntax error
+        - eg: misspelled keywords,duplicate declaration
     * TypeError
-      * Errors occurs while the operation cannot be performed </br>
-        eg:reintializing const variable with another value;
-
+      * Errors occurs while the operation cannot be performed
+        - eg:reintializing const variable with another value;
     * ReferenceError
-      * Trying to access variables that we cannot access it </br>
-        eg:accessing variable that was not declared,
+      * Trying to access variables that we cannot access it
+        - eg:accessing variable that was not declared,
         variable with let & const type cannot be accessed before intialization
 8. Block 
 	- Blocks defined between a curly braces i.e {} its used to group multiple statement
