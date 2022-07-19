@@ -68,7 +68,27 @@
 	- It is called as Compound Statement	
 	- let & const are block scoped i.e cannot be accessed outside the block
 
-
+9. Closure
+	- Function along with lexical scope forms a closure
+		Eg:
+		function x(){
+			let a = 5;
+			function y(){
+				console.log(a)
+			}
+			y();
+		}
+		x();
+	- Uses of Closures
+		* Module Design Pattern
+		* Currying
+		* Functions like once (function that can be exactly one time)
+		* memoize
+		* maintaining state in async 
+		* setTimeouts
+		* Iterators
+		* and many more...
+	
 	
 
 
